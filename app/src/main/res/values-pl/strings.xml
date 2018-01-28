@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memor</string>
+    <string name="Open">Otwórz</string>
+    <string name="Close">Zamknij</string>
+    <string name="intro_text">Wprowadź słowo oraz jego tłumaczenie aby dodać do listy</string>
+    <string name="hint_word">Słowo</string>
+    <string name="hint_translation">Tłumaczenie</string>
+    <string name="add_button">Dodaj</string>
+    <string name="reminder">Przypominanie</string>
+</resources>

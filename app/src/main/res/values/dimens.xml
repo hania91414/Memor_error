@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_for_texts">16dp</dimen>
+    <dimen name="margin_for_texts">8dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="margin_for_buttons">16dp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

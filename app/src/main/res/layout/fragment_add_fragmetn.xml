@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/padding_for_texts"
+        android:paddingLeft="@dimen/padding_for_texts"
+        android:paddingRight="@dimen/padding_for_texts"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_text"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_medium"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="@dimen/margin_for_texts"
+        android:layout_marginStart="@dimen/margin_for_texts"
+        android:layout_marginTop="@dimen/margin_for_texts"
+        android:textCursorDrawable="@drawable/edit_text_cursor_style"
+        android:backgroundTint="@color/BarColor"
+        android:textColorLink="@color/colorPrimary"
+        android:hint="@string/hint_word"
+        android:inputType="text|textPersonName" />
+
+    <EditText
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_for_texts"
+        android:layout_marginStart="@dimen/margin_for_texts"
+        android:layout_marginTop="@dimen/margin_for_texts"
+        android:ems="10"
+        android:hint="@string/hint_translation"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonForTake"
+        android:layout_marginLeft="@dimen/margin_for_buttons"
+        android:background="@drawable/button_style1"
+        android:text="@string/add_button" />
+
+
+</LinearLayout>

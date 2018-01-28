@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Memor</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="intro_text">Please type the word and its translation below to add it to your list</string>
+    <string name="hint_word">Word</string>
+    <string name="hint_translation">Translation</string>
+    <string name="add_button">Add</string>
+    <string name="reminder">Reminder</string>
+    <string name="headline1_list">Word</string>
+    <string name="headline2_list">Translation</string>
+    <string name="Bar1">Add</string>
+    <string name="Bar2">My notes</string>
+    <string name="Bar3">List of words</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
